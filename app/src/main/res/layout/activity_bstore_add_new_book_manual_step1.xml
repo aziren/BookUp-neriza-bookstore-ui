@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BStoreAddNewBookManualStep1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ImgBtnBStoreAddNewBks_Back"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="start"
+                android:background="@color/mainBackground"
+                app:srcCompat="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/TextViewAddNewBookManual_Title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/mainBackground"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Add New Books"
+                android:textColor="@color/myWhite"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ImgBtnUploadBookCover"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_add_a_photo" />
+
+            <TextView
+                android:id="@+id/TxtVwUploadBookCover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:text="+Upload Book Cover"
+                android:textColor="@color/mainBackground" />
+
+            <EditText
+                android:id="@+id/EdTxtBStoreAddNewBookManualStep1_BookTitle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColorHint="#A9A9A9"
+                android:hint="Book Title"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/EdTxtBStoreAddNewBookManualStep1_Author"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColorHint="#A9A9A9"
+                android:hint="Author"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/EdTxtBStoreAddNewBookManualStep1_ISBN"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ISBN"
+                android:inputType="phone"
+                android:textColorHint="#A9A9A9"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/EdTxtBStoreAddNewBookManualStep1_Genre"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Genre"
+                android:inputType="time"
+                android:textColorHint="#A9A9A9"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/EdTxtBStoreAddNewBookManualStep1_Edition"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Edition"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#A9A9A9"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/EdTxtBStoreAddNewBookManualStep1_Publisher"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Publisher"
+                android:inputType="textPassword"
+                android:textColorHint="#A9A9A9"
+                android:paddingLeft="20dp"/>
+
+            <com.kofigyan.stateprogressbar.StateProgressBar
+                android:id="@+id/bstore_add_newbook_manual_progress_bar_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:spb_animateToCurrentProgressState="true"
+                app:spb_checkStateCompleted="true"
+                app:spb_currentStateDescriptionColor="#009688"
+                app:spb_currentStateNumber="one"
+                app:spb_maxStateNumber="two"
+                app:spb_stateBackgroundColor="#BDBDBD"
+                app:spb_stateDescriptionColor="#808080"
+                app:spb_stateForegroundColor="#009688"
+                app:spb_stateNumberBackgroundColor="#808080"
+                app:spb_stateNumberForegroundColor="#eeeeee" />
+
+            <Button
+                android:id="@+id/BtnBStoreAddNewBookManualStep1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/mainBackground"
+                android:text="CONTINUE"
+                android:textColor="@color/myWhite" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

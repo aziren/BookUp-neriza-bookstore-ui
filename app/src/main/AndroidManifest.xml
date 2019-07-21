@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bookup.com.google.bookup">
+    <!-- - Camera and storage permission will be required -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BStoreAddNewBookManualStep1Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BStoreSignUpStep2AdditionalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BStoreSignUpStep3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BStoreSignUpStep2Activity"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- add in application tag -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BStoreSignUpStep1Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BShopperEditUserProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperViewUserProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperRateAndWriteReviewsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperViewBStoreReviewsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperViewBookDetailsinBookstoreActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogInActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperViewDealActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperViewBookstoreDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperShoppingCartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperCreateAcctActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperCheckOutDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BShopperBrowseBooksActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

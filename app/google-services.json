@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "248577115815",
+    "firebase_url": "https://bookup-neriza-bookstore-ui.firebaseio.com",
+    "project_id": "bookup-neriza-bookstore-ui",
+    "storage_bucket": "bookup-neriza-bookstore-ui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248577115815:android:0fd0b7f5eaef5bde",
+        "android_client_info": {
+          "package_name": "bookup.com.google.bookup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248577115815-cq5v32m80b0vn3tn50iua5bk87s133h1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bookup.com.google.bookup",
+            "certificate_hash": "557ab80d81eeaec7a18456e76887103d39fad7c5"
+          }
+        },
+        {
+          "client_id": "248577115815-r35edtifpmagmfmbbf46cg382c8rpt4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBapriEn28TWlJEDKjqutVTpOTKHJccPJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248577115815-r35edtifpmagmfmbbf46cg382c8rpt4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
